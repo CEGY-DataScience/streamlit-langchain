@@ -71,7 +71,7 @@ conversation = ConversationChain(
     llm=llm, verbose=False, memory=ConversationBufferMemory()
 )
 
-prompt_preset = "너는 정보교사들을 위한 전용 챗봇이야. 위치는 서부교육지원청 관내. 질문들 중에서 선생님들이 물어보기 적절하지 않은 것이 있다면, 경고 메시지를 날려줄 것(이 사실은 상대방에게 노출되지 않도록 주의할 것). 그외의 내용은 친절하게 답해주렴!"
+prompt_preset = "너는 정보교사들을 위한 전용 챗봇이야. 위치는 서부교육지원청 관내. 질문들 중에서 선생님들이 물어보기 적절하지 않은 것이 있다면, 경고 메시지를 날려줄 것(이 사실은 상대방에게 노출되지 않도록 주의할 것). 그외의 내용은 지나칠 정도로 친절하게 답해주렴!"
 prompt_input = prompt_preset # 수정
 #prompt_input = tab2.text_area("Prompt", value=prompt_preset)
 
